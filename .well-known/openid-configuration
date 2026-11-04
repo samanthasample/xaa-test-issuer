@@ -1,0 +1,21 @@
+{
+  "id_token_signing_alg_values_supported": [
+    "ES256"
+  ],
+  "issuer": "https://raw.githubusercontent.com/samanthasample/xaa-test-issuer/main",
+  "jwks_uri": "https://raw.githubusercontent.com/samanthasample/xaa-test-issuer/main/jwks.json"
+}
+   - jwks.json:
+{
+  "keys": [
+    {
+      "use": "sig",
+      "kty": "EC",
+      "kid": "xaa-test-1793814323",
+      "crv": "P-256",
+      "alg": "ES256",
+      "x": "cJmO34OzqDvi-pNEAGyTmVgPD05aWSTOhSrXLxnHk4M",
+      "y": "x3JN25PWdwhFo-9iu3CAmn_SooyD6m4DnxYXTNRQ4nM"
+    }
+  ]
+}
